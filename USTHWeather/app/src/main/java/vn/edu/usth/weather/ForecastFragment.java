@@ -25,7 +25,7 @@ public class ForecastFragment extends Fragment {
         TextView textView = new TextView(getContext());
         textView.setText("Thursday");
         ImageView imageView = new ImageView(getContext());
-        //imageView.setImageResource(R.drawable.cloudy);
+        imageView.setImageResource(R.drawable.cloudy);
         linearLayout.addView(textView);
         linearLayout.addView(imageView);
         return view;
